@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      form {
+        width: 100%;
+        max-width: 340px;
+      }
+
+      .logo {
+        margin-bottom: 60px;
+      }
+      .logo img {
+        width: 41px;
+        height: 41px;
+      }
+
+      .title h1 {
+        font-family: Urbanist;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39px;
+        margin-bottom: 10px;
+        color: #1e232c;
+      }
+      .title p {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #8391a1;
+        margin-bottom: 50px;
+      }
+
+      .input-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      .input-group input::placeholder {
+        font-family: Urbanist;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: left;
+        color: #1e232c;
+      }
+      .input-group input {
+        border: 1px solid #35c2c1;
+        width: 70px;
+        height: 60px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        outline: none;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #ffffff;
+        padding: 20px;
+      }
+      .input-group input.outlined {
+        border: 1px solid #e8ecf4;
+        background-color: #f7f8f9;
+      }
+
+      .btnBlock {
+        margin-bottom: 60px;
+      }
+      .btnBlock button {
+        font-family: Urbanist;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: center;
+
+        border: none;
+        width: 100%;
+        height: 56px;
+        border-radius: 8px;
+        background-color: #1e232c;
+      }
+      .btnBlock button a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .remember {
+        text-align: center;
+      }
+      .remember p {
+        font-family: Urbanist;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: #1e232c;
+      }
+      .remember a {
+        color: #35c2c1;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="logo">
+        <a href="Home.html"
+          ><svg
+            width="41"
+            height="41"
+            viewBox="0 0 41 41"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="0.5"
+              y="0.5"
+              width="40"
+              height="40"
+              rx="11.5"
+              fill="white"
+              stroke="#E8ECF4"
+            />
+            <path
+              d="M23.1575 13.3671C23.0656 13.2749 22.9564 13.2018 22.8362 13.1519C22.7159 13.102 22.5871 13.0764 22.4569 13.0764C22.3267 13.0764 22.1978 13.102 22.0776 13.1519C21.9574 13.2018 21.8482 13.2749 21.7563 13.3671L15.1775 19.9458C15.1041 20.0191 15.0459 20.1061 15.0062 20.2018C14.9664 20.2976 14.946 20.4003 14.946 20.504C14.946 20.6076 14.9664 20.7103 15.0062 20.8061C15.0459 20.9018 15.1041 20.9888 15.1775 21.0621L21.7563 27.6408C22.1442 28.0287 22.7696 28.0287 23.1575 27.6408C23.5454 27.2529 23.5454 26.6275 23.1575 26.2396L17.4259 20.5L23.1654 14.7604C23.5454 14.3804 23.5454 13.7471 23.1575 13.3671Z"
+              fill="#1E232C"
+              stroke="#1E232C"
+              stroke-width="0.2"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="title">
+        <h1>OTP Verification</h1>
+        <p>
+          Enter the verification code we just sent on your <br />
+          email address.
+        </p>
+      </div>
+      <div class="input-group">
+        <input type="text" value="5" />
+        <input type="text" value="1" />
+        <input type="text" value="3" />
+        <input autofocus class="outlined" type="text" />
+      </div>
+      <div class="btnBlock">
+        <button><a href="Password.html">Verify</a></button>
+      </div>
+      <div class="remember">
+        <p>
+          Didn’t received code?
+          <a href="#">Resend</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

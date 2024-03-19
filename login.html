@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      form {
+        width: 100%;
+        max-width: 340px;
+      }
+      .logo {
+        margin-bottom: 30px;
+      }
+      .logo img {
+        width: 41px;
+        height: 41px;
+      }
+      .title {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+      .title h1 {
+        font-family: Urbanist;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39px;
+      }
+      .input-group {
+        margin-bottom: 15px;
+      }
+      .input-group input::placeholder {
+        font-family: Urbanist;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: left;
+        color: #8391a1;
+      }
+      .input-group input {
+        border: 1px solid #e8ecf4;
+        width: 100%;
+        height: 56px;
+        outline: none;
+        border-radius: 8px;
+        background-color: #f7f8f9;
+        padding: 18px;
+      }
+      .forgot {
+        text-align: right;
+        margin-bottom: 30px;
+      }
+      .forgot a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        text-align: right;
+        color: #6a707c;
+        text-decoration: none;
+      }
+
+      .submit button {
+        font-family: Urbanist;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: center;
+        color: #ffffff;
+
+        border: none;
+        width: 100%;
+        height: 56px;
+        border-radius: 8px;
+        background-color: #1e232c;
+        margin-bottom: 40px;
+      }
+      .socialMedia {
+        text-align: center;
+      }
+      .socialMedia p {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        color: #6a707c;
+        margin-bottom: 22px;
+      }
+      .socialMedia .btnBlock {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      .socialMedia .btnBlock button {
+        width: 100px;
+        height: 56px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #e8ecf4;
+        background-color: transparent;
+        margin-bottom: 30px;
+      }
+      .goToSingIn {
+        text-align: center;
+      }
+      .goToSingIn p {
+        font-family: Urbanist;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #1e232c;
+      }
+      .goToSingIn a {
+        color: #35c2c1;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="logo">
+        <a href="home.html"
+          ><svg
+            width="41"
+            height="41"
+            viewBox="0 0 41 41"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="0.5"
+              y="0.5"
+              width="40"
+              height="40"
+              rx="11.5"
+              fill="white"
+              stroke="#E8ECF4"
+            />
+            <path
+              d="M23.1575 13.3671C23.0656 13.2749 22.9564 13.2018 22.8362 13.1519C22.7159 13.102 22.5871 13.0764 22.4569 13.0764C22.3267 13.0764 22.1978 13.102 22.0776 13.1519C21.9574 13.2018 21.8482 13.2749 21.7563 13.3671L15.1775 19.9458C15.1041 20.0191 15.0459 20.1061 15.0062 20.2018C14.9664 20.2976 14.946 20.4003 14.946 20.504C14.946 20.6076 14.9664 20.7103 15.0062 20.8061C15.0459 20.9018 15.1041 20.9888 15.1775 21.0621L21.7563 27.6408C22.1442 28.0287 22.7696 28.0287 23.1575 27.6408C23.5454 27.2529 23.5454 26.6275 23.1575 26.2396L17.4259 20.5L23.1654 14.7604C23.5454 14.3804 23.5454 13.7471 23.1575 13.3671Z"
+              fill="#1E232C"
+              stroke="#1E232C"
+              stroke-width="0.2"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="title">
+        <h1>
+          Welcome back! Glad to <br />
+          see you, Again!
+        </h1>
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Enter your email" />
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Enter your password" />
+      </div>
+      <div class="forgot">
+        <a href="Forgot Password.html">Forgot Password?</a>
+      </div>
+      <div class="submit">
+        <button>Login</button>
+      </div>
+      <div class="socialMedia">
+        <p>Or Login with</p>
+        <div class="btnBlock">
+          <button>
+            <svg
+              width="25"
+              height="26"
+              viewBox="0 0 25 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.3292 25V14.0703H17.714L18.2171 9.79094H14.3292V7.06518C14.3292 5.83032 14.6451 4.98485 16.2719 4.98485H18.3334V1.16959C17.3304 1.05249 16.3222 0.995949 15.3134 1.00023C12.3216 1.00023 10.2675 2.98987 10.2675 6.64245V9.78294H6.90482V14.0623H10.2749V25H14.3292Z"
+                fill="#4092FF"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              width="25"
+              height="26"
+              viewBox="0 0 25 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.35245 15.4656L5.56888 18.537L2.70495 18.6006C1.84906 16.9338 1.36358 15.0266 1.36358 13C1.36358 11.0403 1.81749 9.1922 2.62207 7.56494H2.62269L5.17239 8.05576L6.28932 10.7169C6.05555 11.4325 5.92813 12.2007 5.92813 13C5.92822 13.8675 6.07788 14.6987 6.35245 15.4656Z"
+                fill="#FBBB00"
+              />
+              <path
+                d="M23.6777 10.7921C23.807 11.507 23.8744 12.2453 23.8744 12.9999C23.8744 13.846 23.7897 14.6713 23.6283 15.4675C23.0804 18.1765 21.6487 20.5421 19.6654 22.2161L19.6648 22.2155L16.4533 22.0434L15.9988 19.0642C17.3148 18.2538 18.3433 16.9856 18.885 15.4675H12.8664V10.7921H18.9728H23.6777Z"
+                fill="#518EF8"
+              />
+              <path
+                d="M19.6648 22.2156L19.6654 22.2162C17.7365 23.8441 15.2863 24.8181 12.619 24.8181C8.33267 24.8181 4.60603 22.3026 2.70497 18.6006L6.35247 15.4656C7.30298 18.1292 9.7501 20.0253 12.619 20.0253C13.8521 20.0253 15.0074 19.6753 15.9987 19.0643L19.6648 22.2156Z"
+                fill="#28B446"
+              />
+              <path
+                d="M19.8033 3.90253L16.1571 7.03693C15.1311 6.36357 13.9183 5.97459 12.619 5.97459C9.6852 5.97459 7.1923 7.95769 6.2894 10.7168L2.62273 7.56487H2.62212C4.49535 3.77267 8.26899 1.18176 12.619 1.18176C15.35 1.18176 17.854 2.2032 19.8033 3.90253Z"
+                fill="#F14336"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              width="25"
+              height="26"
+              viewBox="0 0 25 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_161_172)">
+                <path
+                  d="M7.54125 25.5133C7.05305 25.1722 6.62036 24.7508 6.25982 24.2653C5.86323 23.7641 5.49578 23.2383 5.15946 22.6906C4.37024 21.4766 3.75131 20.1498 3.32167 18.7508C2.80554 17.1258 2.5556 15.5683 2.5556 14.0448C2.5556 12.3435 2.90613 10.8582 3.59173 9.61021C4.09995 8.63475 4.84717 7.8196 5.75607 7.24908C6.6369 6.67462 7.64899 6.36025 8.68571 6.33908C9.04863 6.33908 9.4394 6.39433 9.85417 6.49996C10.1521 6.58852 10.515 6.72827 10.9584 6.90215C11.5225 7.13046 11.8328 7.27021 11.938 7.30433C12.2685 7.43108 12.5462 7.48633 12.7645 7.48633C12.9301 7.48633 13.1637 7.43108 13.4292 7.34658C13.5785 7.29133 13.8602 7.19383 14.2633 7.01265C14.6626 6.8599 14.9768 6.72908 15.2267 6.63158C15.6098 6.51296 15.9804 6.40327 16.3108 6.34802C16.7025 6.28318 17.1001 6.266 17.4955 6.29683C18.1808 6.34386 18.8558 6.49635 19.4989 6.7494C20.5505 7.19383 21.4009 7.88771 22.0339 8.87408C21.7664 9.04722 21.5153 9.24693 21.2841 9.47046C20.7808 9.93893 20.3521 10.4889 20.0143 11.0995C19.5727 11.934 19.3437 12.8741 19.3496 13.8287C19.3658 15.0011 19.6521 16.0338 20.2162 16.9268C20.631 17.5886 21.17 18.1545 21.8002 18.59C22.1229 18.8183 22.4007 18.9751 22.6669 19.0807C22.5423 19.487 22.4092 19.8802 22.2521 20.2702C21.8959 21.1448 21.4641 21.9833 20.9622 22.7751C20.5149 23.4568 20.1644 23.9646 19.8982 24.3026C19.4834 24.8186 19.0842 25.2126 18.681 25.4873C18.2376 25.796 17.7137 25.961 17.1814 25.961C16.8208 25.9755 16.4604 25.9297 16.1135 25.8253C15.8156 25.7196 15.5208 25.6051 15.2306 25.4743C14.9289 25.3288 14.6178 25.2058 14.2997 25.1062C13.5133 24.8941 12.6887 24.8927 11.9017 25.1021C11.579 25.1996 11.2687 25.3134 10.9623 25.4531C10.5312 25.6433 10.2449 25.7708 10.0793 25.8253C9.74893 25.9268 9.40613 25.9902 9.05946 26.0113C8.52321 26.0113 8.02333 25.8505 7.52809 25.5246L7.54125 25.5133ZM14.6139 5.51358C13.9128 5.88165 13.2435 6.03846 12.5787 5.98727C12.4743 5.28446 12.5787 4.5654 12.8565 3.77808C13.093 3.11107 13.4425 2.49448 13.888 1.95808C14.3585 1.39341 14.9294 0.930576 15.5687 0.59552C16.2497 0.227458 16.8989 0.0283955 17.5195 -0.000854492C17.6 0.735271 17.5195 1.45921 17.2618 2.24165C17.0234 2.93331 16.6746 3.57734 16.2304 4.14615C15.7769 4.71159 15.2205 5.17622 14.5937 5.51277L14.6139 5.51358Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_161_172">
+                  <rect
+                    width="24.7619"
+                    height="26"
+                    fill="white"
+                    transform="translate(0.238037)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="goToSingIn">
+        <p>
+          Don’t have an account?
+          <a href="Register.html"> Register Now</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
